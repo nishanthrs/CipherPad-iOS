@@ -95,6 +95,8 @@
     if (index == 1) {
         [sidebar dismissAnimated:YES completion:^(BOOL finished) {
             if (finished) {
+//                UIStoryboard *storyboard = [UIStoryboard storyboardWithName: @"Main" bundle: nil];
+//                MathNotesViewController *mathVC = [storyboard instantiateViewControllerWithIdentifier: @"MathVC"];
                 MathNotesViewController *mathVC = [[MathNotesViewController alloc] init];
                 mathVC.delegate = mathVC;
                 [mathVC configureWithResources:@[@"math-ak.res", @"math-grm-maw.res"] certificate:[NSData dataWithBytes: myCertificate.bytes length: myCertificate.length]];
@@ -108,6 +110,8 @@
     if (index == 2) {
         [sidebar dismissAnimated:YES completion:^(BOOL finished) {
             if (finished) {
+//                UIStoryboard *storyboard = [UIStoryboard storyboardWithName: @"Main" bundle: nil];
+//                SingleTextViewController *singleTextVC = [storyboard instantiateViewControllerWithIdentifier: @"TextVC"];
                 SingleTextViewController *singleTextVC = [[SingleTextViewController alloc] init];
                 singleTextVC.textWidget.delegate = singleTextVC;
                 //Recognition resources

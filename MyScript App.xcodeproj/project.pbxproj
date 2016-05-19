@@ -108,6 +108,7 @@
 		21F2D05A1BDD1F8F00FFCAD8 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F2D0591BDD1F8F00FFCAD8 /* XMLReader.m */; };
 		21F2D0621BDD4F2100FFCAD8 /* AtkSltw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F2D0611BDD4F2100FFCAD8 /* AtkSltw.framework */; };
 		21F2D0651BDD504900FFCAD8 /* SingleTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F2D0641BDD504900FFCAD8 /* SingleTextViewController.m */; };
+		A5C79B7B44B1EE9179B981B8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA348C04458854BD48FB1597 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E6FDBCEBF1C252592E9850B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		2136E21D1BDC9CA500C02F55 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		2136E21E1BDC9CA500C02F55 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		2136E2201BDCC56F00C02F55 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
@@ -255,6 +257,8 @@
 		21F2D0611BDD4F2100FFCAD8 /* AtkSltw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AtkSltw.framework; path = ../../../../Downloads/MyScript_ATK_iOS/libs/sltw/AtkSltw.framework; sourceTree = "<group>"; };
 		21F2D0631BDD504900FFCAD8 /* SingleTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleTextViewController.h; path = ../SingleTextViewController.h; sourceTree = "<group>"; };
 		21F2D0641BDD504900FFCAD8 /* SingleTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleTextViewController.m; path = ../SingleTextViewController.m; sourceTree = "<group>"; };
+		EA348C04458854BD48FB1597 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F2AF16FBB404D0BD22643B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +299,7 @@
 				21D3D0201B86E87A00A25B05 /* libMyScriptEngine.a in Frameworks */,
 				21D3D01E1B86E84F00A25B05 /* libMyScriptMath.a in Frameworks */,
 				21B8C37A1B84476600B2CB22 /* SystemConfiguration.framework in Frameworks */,
+				A5C79B7B44B1EE9179B981B8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +353,7 @@
 				21B8C35E1B84461C00B2CB22 /* MyScript AppTests */,
 				21B8C3431B84461C00B2CB22 /* Products */,
 				21B8C3761B84471A00B2CB22 /* Frameworks */,
+				22E697F000AD3D4B03FFE1FC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -474,6 +480,7 @@
 				21D3D01D1B86E84F00A25B05 /* libMyScriptMath.a */,
 				21B8C3831B8447D500B2CB22 /* libstdc++.dylib */,
 				21B8C3791B84476600B2CB22 /* SystemConfiguration.framework */,
+				EA348C04458854BD48FB1597 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -554,6 +561,15 @@
 			name = "Text Recognition (Pending)";
 			sourceTree = "<group>";
 		};
+		22E697F000AD3D4B03FFE1FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2AF16FBB404D0BD22643B /* Pods.debug.xcconfig */,
+				0E6FDBCEBF1C252592E9850B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -561,9 +577,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21B8C3651B84461C00B2CB22 /* Build configuration list for PBXNativeTarget "MyScript App" */;
 			buildPhases = (
+				130FD89DF72E7518BE8EBC6B /* Check Pods Manifest.lock */,
 				21B8C33E1B84461C00B2CB22 /* Sources */,
 				21B8C33F1B84461C00B2CB22 /* Frameworks */,
 				21B8C3401B84461C00B2CB22 /* Resources */,
+				CA9DEACF8621BD47F643D496 /* Embed Pods Frameworks */,
+				6B77D2451422E8E7C5ABD09F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -665,6 +684,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		130FD89DF72E7518BE8EBC6B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B77D2451422E8E7C5ABD09F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9DEACF8621BD47F643D496 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21B8C33E1B84461C00B2CB22 /* Sources */ = {
@@ -847,6 +914,7 @@
 		};
 		21B8C3661B84461C00B2CB22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F2AF16FBB404D0BD22643B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -873,7 +941,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "MyScript App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -913,6 +981,7 @@
 		};
 		21B8C3671B84461C00B2CB22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6FDBCEBF1C252592E9850B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -939,7 +1008,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "MyScript App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

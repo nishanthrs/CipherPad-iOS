@@ -51,7 +51,7 @@
     
     UISwipeGestureRecognizer *swipeRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget: self action: @selector(presentExportViewController)];
     [swipeRecognizer setDirection: UISwipeGestureRecognizerDirectionUp];
-    //[self.view addGestureRecognizer: swipeRecognizer];
+    [self.view addGestureRecognizer: swipeRecognizer];
 }
 
 - (void) viewDidAppear:(BOOL)animated {
