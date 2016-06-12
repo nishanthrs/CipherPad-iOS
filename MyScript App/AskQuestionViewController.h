@@ -19,6 +19,9 @@
 @property (strong, nonatomic) IBOutlet UITextView *questionTextView;
 @property (strong, nonatomic) IBOutlet UIImageView *questionImageView;
 
+- (void) removeVC;
+- (void) postQuestionButtonPressed;
+
 - (IBAction)cameraButtonPressed:(UIBarButtonItem *)sender;
 - (IBAction)postQuestionButtonPressed:(UIBarButtonItem *)sender;
 

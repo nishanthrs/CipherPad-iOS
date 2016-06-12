@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2124EBAD1D0D8E5C0071F8D8 /* QuestionDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2124EBAC1D0D8E5C0071F8D8 /* QuestionDetailTableViewController.m */; };
 		2136E21C1BDC7F1D00C02F55 /* AtkMltw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216F83F11BDC4C770081E2A7 /* AtkMltw.framework */; };
 		2136E21F1BDC9CA500C02F55 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136E21E1BDC9CA500C02F55 /* MenuViewController.m */; };
 		2136E2221BDCC57A00C02F55 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136E2211BDCC57A00C02F55 /* MenuTableViewController.m */; };
@@ -43,6 +44,8 @@
 		21B8C3561B84461C00B2CB22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21B8C3541B84461C00B2CB22 /* LaunchScreen.xib */; };
 		21B8C3621B84461C00B2CB22 /* MyScript_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B8C3611B84461C00B2CB22 /* MyScript_AppTests.m */; };
 		21B8C37A1B84476600B2CB22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B8C3791B84476600B2CB22 /* SystemConfiguration.framework */; };
+		21BE1CCF1D0D3D7D000F4DDB /* PicCipherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BE1CCE1D0D3D7D000F4DDB /* PicCipherViewController.m */; };
+		21BE1CD21D0D67A8000F4DDB /* GoogleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BE1CD11D0D67A8000F4DDB /* GoogleWebViewController.m */; };
 		21C843CC1BF8873A00EF4689 /* TAOverlay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21C843C81BF8873A00EF4689 /* TAOverlay.bundle */; };
 		21C843CD1BF8873A00EF4689 /* TAOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C843CA1BF8873A00EF4689 /* TAOverlay.m */; };
 		21C843D01BF8C2E200EF4689 /* QuestionFeedWallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C843CF1BF8C2E200EF4689 /* QuestionFeedWallTableViewController.m */; };
@@ -123,6 +126,8 @@
 
 /* Begin PBXFileReference section */
 		0E6FDBCEBF1C252592E9850B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2124EBAB1D0D8E5C0071F8D8 /* QuestionDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionDetailTableViewController.h; sourceTree = "<group>"; };
+		2124EBAC1D0D8E5C0071F8D8 /* QuestionDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionDetailTableViewController.m; sourceTree = "<group>"; };
 		2136E21D1BDC9CA500C02F55 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		2136E21E1BDC9CA500C02F55 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		2136E2201BDCC56F00C02F55 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
@@ -179,6 +184,10 @@
 		21B8C3611B84461C00B2CB22 /* MyScript_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScript_AppTests.m; sourceTree = "<group>"; };
 		21B8C3791B84476600B2CB22 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		21B8C3831B8447D500B2CB22 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		21BE1CCD1D0D3D7D000F4DDB /* PicCipherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicCipherViewController.h; sourceTree = "<group>"; };
+		21BE1CCE1D0D3D7D000F4DDB /* PicCipherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicCipherViewController.m; sourceTree = "<group>"; };
+		21BE1CD01D0D67A8000F4DDB /* GoogleWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleWebViewController.h; sourceTree = "<group>"; };
+		21BE1CD11D0D67A8000F4DDB /* GoogleWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleWebViewController.m; sourceTree = "<group>"; };
 		21C843C81BF8873A00EF4689 /* TAOverlay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TAOverlay.bundle; sourceTree = "<group>"; };
 		21C843C91BF8873A00EF4689 /* TAOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAOverlay.h; sourceTree = "<group>"; };
 		21C843CA1BF8873A00EF4689 /* TAOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAOverlay.m; sourceTree = "<group>"; };
@@ -398,10 +407,16 @@
 				21B89CAB1BF8D53A00FCF922 /* QuestionObject.m */,
 				21C843CE1BF8C2E200EF4689 /* QuestionFeedWallTableViewController.h */,
 				21C843CF1BF8C2E200EF4689 /* QuestionFeedWallTableViewController.m */,
+				2124EBAB1D0D8E5C0071F8D8 /* QuestionDetailTableViewController.h */,
+				2124EBAC1D0D8E5C0071F8D8 /* QuestionDetailTableViewController.m */,
 				21C843D11BF8C47C00EF4689 /* AskQuestionViewController.h */,
 				21C843D21BF8C47C00EF4689 /* AskQuestionViewController.m */,
 				21F2D0631BDD504900FFCAD8 /* SingleTextViewController.h */,
 				21F2D0641BDD504900FFCAD8 /* SingleTextViewController.m */,
+				21BE1CCD1D0D3D7D000F4DDB /* PicCipherViewController.h */,
+				21BE1CCE1D0D3D7D000F4DDB /* PicCipherViewController.m */,
+				21BE1CD01D0D67A8000F4DDB /* GoogleWebViewController.h */,
+				21BE1CD11D0D67A8000F4DDB /* GoogleWebViewController.m */,
 				216A584C1C18AD5E00422FFA /* MultiLineTextViewController.h */,
 				216A584D1C18AD5E00422FFA /* MultiLineTextViewController.m */,
 				21B8C34F1B84461C00B2CB22 /* Main.storyboard */,
@@ -764,6 +779,7 @@
 				21D3D0721B8819FA00A25B05 /* Spring.swift in Sources */,
 				21C843D31BF8C47C00EF4689 /* AskQuestionViewController.m in Sources */,
 				216A584B1C12217E00422FFA /* HandRecSeguePageViewController.m in Sources */,
+				21BE1CCF1D0D3D7D000F4DDB /* PicCipherViewController.m in Sources */,
 				21F2D0651BDD504900FFCAD8 /* SingleTextViewController.m in Sources */,
 				216F840A1BDC5FD90081E2A7 /* RNFrostedSidebar.m in Sources */,
 				2136E2221BDCC57A00C02F55 /* MenuTableViewController.m in Sources */,
@@ -771,8 +787,10 @@
 				21D3D0691B8819FA00A25B05 /* DesignableTextField.swift in Sources */,
 				21B8C34B1B84461C00B2CB22 /* AppDelegate.m in Sources */,
 				21D3D07A1B8819FA00A25B05 /* TransitionManager.swift in Sources */,
+				2124EBAD1D0D8E5C0071F8D8 /* QuestionDetailTableViewController.m in Sources */,
 				2136E22B1BDCC6CB00C02F55 /* LineSpaceTableViewController.m in Sources */,
 				21D3D0631B8819FA00A25B05 /* BlurView.swift in Sources */,
+				21BE1CD21D0D67A8000F4DDB /* GoogleWebViewController.m in Sources */,
 				21E221B41BF33EBA009F9241 /* WYPopoverController.m in Sources */,
 				21D3D0681B8819FA00A25B05 /* DesignableTabBarController.swift in Sources */,
 				21D3D02A1B86EA9A00A25B05 /* MathNotesViewController.m in Sources */,
@@ -958,6 +976,7 @@
 					"$(PROJECT_DIR)/MyScript",
 					App,
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"/usr/lib/libstdc++.dylib",
 					"-Wl,-U,_MyScript2D",
@@ -973,6 +992,7 @@
 					"-Wl,-U,_MyScriptText",
 					"-Wl,-U,_MyScriptWriterAdaptation",
 					"-ObjC",
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1025,6 +1045,7 @@
 					"$(PROJECT_DIR)/MyScript",
 					App,
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"/usr/lib/libstdc++.dylib",
 					"-Wl,-U,_MyScript2D",
@@ -1040,6 +1061,7 @@
 					"-Wl,-U,_MyScriptText",
 					"-Wl,-U,_MyScriptWriterAdaptation",
 					"-ObjC",
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

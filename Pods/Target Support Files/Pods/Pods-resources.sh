@@ -75,6 +75,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "TSMessages/Pod/Assets/NotificationButtonBackground.png"
   install_resource "TSMessages/Pod/Assets/NotificationButtonBackground@2x.png"
   install_resource "TSMessages/Pod/Assets/TSMessagesDefaultDesign.json"
+  install_resource "${BUILT_PRODUCTS_DIR}/BALoadingView.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "TSMessages/Pod/Assets/NotificationBackgroundError.png"
@@ -94,6 +95,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "TSMessages/Pod/Assets/NotificationButtonBackground.png"
   install_resource "TSMessages/Pod/Assets/NotificationButtonBackground@2x.png"
   install_resource "TSMessages/Pod/Assets/TSMessagesDefaultDesign.json"
+  install_resource "${BUILT_PRODUCTS_DIR}/BALoadingView.bundle"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -2,8 +2,8 @@
 //  MenuViewController.h
 //  MyScript App
 //
-//  Created by Nishanth Salinamakki on 10/25/15.
-//  Copyright (c) 2015 Nishanth Salinamakki. All rights reserved.
+//  Created by Nishanth Salinamakki on 6/11/15.
+//  Copyright (c) 2016 Nishanth Salinamakki. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -14,6 +14,7 @@
 #import "TextNotesViewController.h"
 #import "SingleTextViewController.h"
 #import "SpeechEngineViewController.h"
+#import "PicCipherViewController.h"
 #import <AtkMaw/MAWMathWidget.h>
 #import <AtkMltw/MultiLineTextWidget.h>
 #import <AtkSltw/SLTWTextWidget.h>
@@ -27,5 +28,6 @@
 - (IBAction)textCipherButton:(id)sender;
 - (IBAction)speechCipherButton:(id)sender;
 - (IBAction)askQuestionButtonPressed:(id)sender;
+- (IBAction)picCipherButtonPressed:(id)sender;
 
 @end

@@ -36,11 +36,17 @@
                 self.questionFeedArray = [[NSArray alloc] initWithArray: objects];
                 [self.tableView reloadData];
             }
-        } else {
+        }
+        else {
             // Log details of the failure
             NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
     }];
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear: YES];
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -76,11 +82,25 @@
 }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    PFObject *questionPost = [self.questionFeedArray objectAtIndex: indexPath.row];
+    NSString *questionTopic = questionPost[@"questionTopic"];
+    NSString *questionString = questionPost[@"questionString"];
+    UIImageView *questionImage = questionPost[@"questionImage"];
+    NSLog(@"QUESTION TOPIC: %@", questionTopic);
+    NSLog(@"QUESTION STRING: %@", questionString);
+    NSLog(@"QUESTION IMAGE: %@", questionImage); //should not be nil
+    //QuestionObject *question = [[QuestionObject alloc] initWithQuestionTopic: questionTopic andQuestion: questionString andImage: nil];
+    //QuestionDetailTableViewController *questionDetailTVC = [[QuestionDetailTableViewController alloc] initWithStyle: UITableViewStylePlain];
+    //questionDetailTVC.questionObject = question;
 }
 
 - (void) changeVC {
-    [self performSegueWithIdentifier: @"addQuestionSegue" sender: self];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName: @"Main" bundle: nil];
+    AskQuestionViewController *askQuestionVC = [storyboard instantiateViewControllerWithIdentifier: @"AskQuestionVC"];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController: askQuestionVC];
+    [self presentViewController: nav animated: YES completion:^{
+        
+    }];
 }
 
 /*
@@ -117,14 +137,26 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([sender isKindOfClass: [UITableViewCell class]]) {
+        if ([segue.destinationViewController isKindOfClass: [QuestionDetailTableViewController class]]) {
+            //if ([segue.identifier isEqualToString: @"questionDetailSegue"]) {
+                NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+                QuestionDetailTableViewController *nextViewController = segue.destinationViewController;
+                
+                PFObject *questionPost = [self.questionFeedArray objectAtIndex: indexPath.row];
+                NSString *questionTopic = questionPost[@"questionTopic"];
+                NSString *questionString = questionPost[@"questionString"];
+                UIImageView *questionImage = questionPost[@"questionImage"];
+                
+                QuestionObject *question = [[QuestionObject alloc] initWithQuestionTopic: questionTopic andQuestion: questionString andImage: questionImage];
+                nextViewController.questionObject = question;
+            //}
+        }
+    }
 }
-*/
 
 @end

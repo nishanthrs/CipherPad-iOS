@@ -7,93 +7,221 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112CCCA2FF597F9EBFEF7AF453A9B333 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 427F9B9DBD9AA84E300D915A90B73C62 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3642DD78055E38F7FB67BE17CFDD7A05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		4DAC0EEE3A2EAA7166211A60596A8E4C /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 376EE04E6492E91B3D97D65B748AA06B /* TSMessageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4DAE4CFA529CF3FF5D27773E81A54981 /* HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3733A8D32A9CAA835BAADF5FF2A5CC /* HexColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		585081B2966C26FC80D404EBCF766E40 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D317B84FFA76269606E7399C63F317 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		615D57F2D5026472A990CBDA9BF1AB72 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CB2173066849974D09F24254D9577 /* HexColor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6B4AEA6282D76734925F3D7428204964 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6210A510FFBBAF645152568E49DEF7 /* TSBlurView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8306DEDA1B1C7E565238D5C07658A220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		83A05D163D38A365615AF93A2EF469A9 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		A02D3D4C9CC5D88417220024B14499B4 /* TSMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8528F16D3795EABA1FEAD8EE5F7F4EA6 /* TSMessages-dummy.m */; };
-		B156B6156AD56216B48A15118520BC24 /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229C34BDBCFA03ECD9BF1AD79201088 /* HexColors-dummy.m */; };
-		BF941218636D1F46D90CF227B032598C /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = E788C147D4B9E98A59D012DC8C6B55DF /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAFEA22A0137A2CB182D7CD0D1979E46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F5CC8E4A47B6F692D40C936365CBD865 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC7AAAC708614A762FE5B1748228B7 /* TSMessage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		06237F1120547E55C59A6D604641CEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284C0650FCF507C535084B85850179B8 /* Foundation.framework */; };
+		0D77184D64FBEF1D63E375E32C715E3F /* BALoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F67F28516C10A94B5CBD3210909F4B6 /* BALoadingView.m */; };
+		0EFF7E0D57345E18B1B19B5AD5081D3E /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2309C9A19FFA3C0C642F2ED92F13C1C0 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BDCB36894E93B70D59F0CD0B2FDD403 /* BALoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4889F777CEED698E04AD76A25488D3C /* BALoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F022EB0516E95F9D2C02397AE07946A /* CloudSightDelete.h in Headers */ = {isa = PBXBuildFile; fileRef = 455592953A6D003A78EB0F04A1C0E5E0 /* CloudSightDelete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F63CE2459F933D1A5AACE0EF6FFDA1E /* CloudSightDelete.m in Sources */ = {isa = PBXBuildFile; fileRef = 160297C02E8945AC65B003CADABAD87B /* CloudSightDelete.m */; };
+		25FC8587BC8D070E1ACD72F53558D531 /* RequestUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0643264C84DDE381AD3725748D61D34 /* RequestUtils-dummy.m */; };
+		26043C6012CA502D793D18E3BC23E635 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		26422626BFB471A8B6083AA229311B39 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF5A5489290E0A31697812E4DDE7FA /* TSMessage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36128594D0415DB30430A9723933E128 /* CloudSightConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5106BAA30194763CAE45F0A870BDE /* CloudSightConnection.m */; };
+		3642DD78055E38F7FB67BE17CFDD7A05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284C0650FCF507C535084B85850179B8 /* Foundation.framework */; };
+		40B15EA983E4E01BC34E9601C612BD26 /* CloudSight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB240F69CE6895940C384EE2B24E16B /* CloudSight-dummy.m */; };
+		43D5CD2A75B0DAEC799D4B733162229D /* BFOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A12C47BCD9C4E47B16157FD0644016 /* BFOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B03081E3E4D5BD5CEC18694CE38C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284C0650FCF507C535084B85850179B8 /* Foundation.framework */; };
+		4DAE4CFA529CF3FF5D27773E81A54981 /* HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9CFDF123DBE477A3A311583F87AAFA /* HexColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDAEB3A0187CC86D07955132C181378 /* CloudSightUploadProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = ABCDE99599819785237FD8B765F862E8 /* CloudSightUploadProgressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556783C9570B420C573F671B6A412BC2 /* TSMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E10AF095C915E66F78F0A48E40508A /* TSMessages-dummy.m */; };
+		5EC9B2D55E314A4378805413BA3E6003 /* TSMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F89D57551A3FB4369C9F17CA41A8FD0 /* TSMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		615D57F2D5026472A990CBDA9BF1AB72 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAA60390A7BBDED71C1E07A16A5CE8 /* HexColor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		624C2AF7418BECE442C4D76BDCD46140 /* BALoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2742DD06EE863D62351C9B20706C89D /* BALoadingView-dummy.m */; };
+		642633C63D62ADB03D1B828DFD091E90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D40915431CA3514FE32E5E132B000 /* CoreGraphics.framework */; };
+		6D1C900E1464F44A282883609CB70D3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284C0650FCF507C535084B85850179B8 /* Foundation.framework */; };
+		7E1E99148707B6D002845D5816C9C396 /* RequestUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 058933DA908C4409CACD46FC275D1E33 /* RequestUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D8774124DEB6F6E567B16862CE84BA /* CloudSightImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EF44173A7B0D9BCA2DE000628E0ECD0C /* CloudSightImageResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E048D8031162169A0364B010267CB7 /* CloudSight.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ACD480D2A7A51E6E956BBD3A47CC25 /* CloudSight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F154969F5A9057C2D9178E77045961 /* CloudSightImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 350A4A1EB79919EC3309B86262E4A2AE /* CloudSightImageRequest.m */; };
+		9647145EBF66658433B6C3B2799C6107 /* RequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E97734CE5D64E83DBF6CBCDC0FF2D997 /* RequestUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9D0E3CD46D4697B10D61F02E046649BF /* CloudSightQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED3D735563575138A8A5A8350C55FAE /* CloudSightQuery.m */; };
+		A69DC69E1EE814F9C1A49CA34DFD1C6D /* CloudSightImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D9535653AB71591B6413CD8DFA2C33 /* CloudSightImageResponse.m */; };
+		B156B6156AD56216B48A15118520BC24 /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4225AC8A227136B99CBDB6EC47867354 /* HexColors-dummy.m */; };
+		BF02C73D78B893A8CB9B987841CA9344 /* CloudSightImageRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DD9F629FFEAC2B421B3A02EF150AEF /* CloudSightImageRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C19C8546B353E01A53B6F2C1FD74110B /* BFOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = D15AE16BD5EE2862394C791806E493A7 /* BFOAuth.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C2900FC993CDB6A5FDC3A86E83D91A34 /* BFOAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 878292C98130E22E1A4EB778B4512267 /* BFOAuth-dummy.m */; };
+		C29BF379AA945CD185545222D314B5A6 /* CloudSightConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7876EDE862584CCDBBE4919C67547E /* CloudSightConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C379B31916361C3628C2436A4066550E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA569377435185E7988FD7E328054377 /* UIKit.framework */; };
+		CB15D78769684035BE1E82380E1E6DA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284C0650FCF507C535084B85850179B8 /* Foundation.framework */; };
+		CE61DA5610FC95B9098298C259827F24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284C0650FCF507C535084B85850179B8 /* Foundation.framework */; };
+		D3D506A9EA84E2B74C7DCE839F8F574A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284C0650FCF507C535084B85850179B8 /* Foundation.framework */; };
+		DF7E14382A8322ACCE09B1ECF09ED467 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5134C1EB89B2D9225AF025E20CD9ED5 /* CoreLocation.framework */; };
+		DFD9F981B3972BAD371FC5D4D8C7DADC /* CloudSightImageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5D048F5292283E2C0A824872E78BC0 /* CloudSightImageRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D5D2A495FFAC9410F3552E894C6B7C /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574E4650B8509E44EF85711900FB3207 /* TSMessageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF169803757AF148407EF4C37083AB3D /* TSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFD5D7272D50AFAF5C83E6C934AD344 /* TSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F459A06527982217051CAACEF4B49B90 /* CloudSightQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDEA683E6AE073D527F4D33863CC64C /* CloudSightQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F594538C5EB6D9AEB8A8CEF64E5C952C /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = D36D9335295A8EDDD6C6528CC8A58742 /* TSBlurView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB0E66F9E8A9C91D33B3937ACFE1FCB9 /* CloudSightQueryDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE7A2006F2E2C153989DE1E315BDB20 /* CloudSightQueryDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8F3AFD4C50346E3EB6E211655FC42719 /* PBXContainerItemProxy */ = {
+		0E191429DCF5E35335892EA07F337464 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E9EF397B95762DDB254C71DDCB4B1381;
 			remoteInfo = HexColors;
 		};
-		AF09BCAB0FAE0CB665ED50AF39309324 /* PBXContainerItemProxy */ = {
+		243CA14A02EA631A56734D626E441D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF941962E5DDC3BE50822536113FCB5F;
+			remoteInfo = BFOAuth;
+		};
+		42BCCF3664FCE99EF50427E49BAC563A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF941962E5DDC3BE50822536113FCB5F;
+			remoteInfo = BFOAuth;
+		};
+		4F49CF7083FABDAA54A037454FD5FCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC133B12170877E6FBF6934073A66D6A;
+			remoteInfo = RequestUtils;
+		};
+		57D390AA43A9B7583E027A75AD9AC70D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E9EF397B95762DDB254C71DDCB4B1381;
 			remoteInfo = HexColors;
 		};
-		D4FC6C17FBF8158EDCD35D801CD01494 /* PBXContainerItemProxy */ = {
+		6C593F0AC89DBA1058D9BA5207A4A8C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9DEE168E1CB1251ACB052818EAA1E979;
+			remoteGlobalIDString = FC133B12170877E6FBF6934073A66D6A;
+			remoteInfo = RequestUtils;
+		};
+		852E930DA5D767ED4CABBA463EC89FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAB10E1352E459B00B286F03C740580;
+			remoteInfo = "BALoadingView-BALoadingView";
+		};
+		8D7880DAF0317AAEEAC5301E8BA71EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496953AC690E7E95A3AE0C8180924FC6;
+			remoteInfo = BALoadingView;
+		};
+		A730E67E0E9B499BA10E66C161A2070D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C87BE8B34E43D731BCB89F769BF2CA;
 			remoteInfo = TSMessages;
+		};
+		CF4B3B5D7C41DCC592E6997FE7D7CDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A9500B0C179DA4F371BC4AC064E738;
+			remoteInfo = CloudSight;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		062471783DDAFA4840F402F58AB38B47 /* NotificationBackgroundWarningIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundWarningIcon.png; path = Pod/Assets/NotificationBackgroundWarningIcon.png; sourceTree = "<group>"; };
-		06B9A2E55A695CB42AF5E281B82A99CC /* NotificationBackgroundMessage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundMessage@2x.png"; path = "Pod/Assets/NotificationBackgroundMessage@2x.png"; sourceTree = "<group>"; };
+		058933DA908C4409CACD46FC275D1E33 /* RequestUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestUtils.h; path = RequestUtils/RequestUtils.h; sourceTree = "<group>"; };
+		05E10AF095C915E66F78F0A48E40508A /* TSMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSMessages-dummy.m"; sourceTree = "<group>"; };
+		0BAAA60390A7BBDED71C1E07A16A5CE8 /* HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColor.m; path = Classes/HexColor.m; sourceTree = "<group>"; };
+		0C15DB6F2951857838636D45C2372C5E /* CloudSight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CloudSight.xcconfig; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		156E2E20FA54789DC9449D7A66A55D6C /* TSMessagesDefaultDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = TSMessagesDefaultDesign.json; path = Pod/Assets/TSMessagesDefaultDesign.json; sourceTree = "<group>"; };
-		1BFC7AAAC708614A762FE5B1748228B7 /* TSMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSMessage.m; path = Pod/Classes/TSMessage.m; sourceTree = "<group>"; };
-		1E640978FFB89514748C085E770AE429 /* libTSMessages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSMessages.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2135D884979C9208826F6FDC21553AA9 /* TSMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSMessages-prefix.pch"; sourceTree = "<group>"; };
-		2320674A9A1FB5B6E00A4F82A211330D /* NotificationBackgroundSuccess.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundSuccess.png; path = Pod/Assets/NotificationBackgroundSuccess.png; sourceTree = "<group>"; };
+		160297C02E8945AC65B003CADABAD87B /* CloudSightDelete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightDelete.m; path = CloudSight/CloudSightDelete.m; sourceTree = "<group>"; };
+		163052FEE685C482731CD81BBE500C16 /* TSMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSMessages-prefix.pch"; sourceTree = "<group>"; };
+		22D42B21F61C97D6734A5CBB5C530E44 /* NotificationBackgroundSuccessIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundSuccessIcon.png; path = Pod/Assets/NotificationBackgroundSuccessIcon.png; sourceTree = "<group>"; };
+		2309C9A19FFA3C0C642F2ED92F13C1C0 /* TSMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSMessage.h; path = Pod/Classes/TSMessage.h; sourceTree = "<group>"; };
+		250F5FDBAF4F569800B68E1C7B250122 /* NotificationButtonBackground@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationButtonBackground@2x.png"; path = "Pod/Assets/NotificationButtonBackground@2x.png"; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		2D74F3556FFF49C2EF9EC0A476B42776 /* libHexColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHexColors.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		376EE04E6492E91B3D97D65B748AA06B /* TSMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSMessageView.m; path = Pod/Classes/TSMessageView.m; sourceTree = "<group>"; };
+		276D40915431CA3514FE32E5E132B000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		284C0650FCF507C535084B85850179B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		290D06017EAA1E078B9CFCFCB0521C6A /* NotificationBackgroundWarning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundWarning@2x.png"; path = "Pod/Assets/NotificationBackgroundWarning@2x.png"; sourceTree = "<group>"; };
+		295DD3AE2F2CE415257E2380C8E3D0AD /* BALoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BALoadingView-prefix.pch"; sourceTree = "<group>"; };
+		2C9CFDF123DBE477A3A311583F87AAFA /* HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColor.h; path = Classes/HexColor.h; sourceTree = "<group>"; };
+		350A4A1EB79919EC3309B86262E4A2AE /* CloudSightImageRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightImageRequest.m; path = CloudSight/CloudSightImageRequest.m; sourceTree = "<group>"; };
+		364AE89CBF70BE04B793B6963B81E03A /* BFOAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFOAuth-prefix.pch"; sourceTree = "<group>"; };
+		37200301000FD17A7A1B82755E8F9559 /* NotificationButtonBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationButtonBackground.png; path = Pod/Assets/NotificationButtonBackground.png; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		394664383A6E69079040A504664C65A5 /* NotificationBackgroundMessage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundMessage.png; path = Pod/Assets/NotificationBackgroundMessage.png; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3ECBC2187A0586B1381F5F8ED90DDE5F /* NotificationBackgroundErrorIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundErrorIcon.png; path = Pod/Assets/NotificationBackgroundErrorIcon.png; sourceTree = "<group>"; };
-		427F9B9DBD9AA84E300D915A90B73C62 /* TSMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSMessageView.h; path = Pod/Classes/TSMessageView.h; sourceTree = "<group>"; };
-		434D6FF4ACE3D1BD3CB65E617A11480E /* NotificationBackgroundSuccessIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundSuccessIcon.png; path = Pod/Assets/NotificationBackgroundSuccessIcon.png; sourceTree = "<group>"; };
-		450489FF55A8A6AF1D5BA109BA3E0C96 /* NotificationBackgroundWarning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundWarning.png; path = Pod/Assets/NotificationBackgroundWarning.png; sourceTree = "<group>"; };
-		48578F6C1167D0168AD475DFB373314C /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		38B3CA05EFB37DBE1C69F538DFFADF1D /* BFOAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFOAuth.xcconfig; sourceTree = "<group>"; };
+		3BAD86DC697B86F255632B02BE243397 /* TSMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSMessages.xcconfig; sourceTree = "<group>"; };
+		3C1BED116020F51842B837F19AB7BC66 /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
+		3DA4E1053FBA1AC67E3EC94CEA666BC1 /* libBALoadingView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBALoadingView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4225AC8A227136B99CBDB6EC47867354 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
+		454E288CB4120835FD919B9F2E835C36 /* NotificationBackgroundWarningIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundWarningIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundWarningIcon@2x.png"; sourceTree = "<group>"; };
+		455592953A6D003A78EB0F04A1C0E5E0 /* CloudSightDelete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightDelete.h; path = CloudSight/CloudSightDelete.h; sourceTree = "<group>"; };
+		4A6C70A45E1B27271E1137EA5AFB396B /* NotificationBackgroundSuccess@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundSuccess@2x.png"; path = "Pod/Assets/NotificationBackgroundSuccess@2x.png"; sourceTree = "<group>"; };
+		4DFD5D7272D50AFAF5C83E6C934AD344 /* TSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSBlurView.h; path = Pod/Classes/TSBlurView.h; sourceTree = "<group>"; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		547E63B75D199E1A79F83ABD2EE27262 /* NotificationBackgroundErrorIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundErrorIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundErrorIcon@2x.png"; sourceTree = "<group>"; };
-		6229C34BDBCFA03ECD9BF1AD79201088 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
-		6335F695F04A9D11B49B1822A26A3401 /* NotificationButtonBackground@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationButtonBackground@2x.png"; path = "Pod/Assets/NotificationButtonBackground@2x.png"; sourceTree = "<group>"; };
+		4F89D57551A3FB4369C9F17CA41A8FD0 /* TSMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSMessageView.h; path = Pod/Classes/TSMessageView.h; sourceTree = "<group>"; };
+		50FC1BEF5B4FEC4C3B73E51A33B00DCB /* RequestUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RequestUtils-prefix.pch"; sourceTree = "<group>"; };
+		510EDD2B36E96ACDC9D38E016D409730 /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		550C1851AE57D14960F71546935EC033 /* libRequestUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRequestUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		574E4650B8509E44EF85711900FB3207 /* TSMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSMessageView.m; path = Pod/Classes/TSMessageView.m; sourceTree = "<group>"; };
+		58DD9F629FFEAC2B421B3A02EF150AEF /* CloudSightImageRequestDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightImageRequestDelegate.h; path = CloudSight/CloudSightImageRequestDelegate.h; sourceTree = "<group>"; };
+		59ACD480D2A7A51E6E956BBD3A47CC25 /* CloudSight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSight.h; path = CloudSight/CloudSight.h; sourceTree = "<group>"; };
+		5EE7A2006F2E2C153989DE1E315BDB20 /* CloudSightQueryDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightQueryDelegate.h; path = CloudSight/CloudSightQueryDelegate.h; sourceTree = "<group>"; };
+		5EE98A835E285AE506C05EAD88408D62 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F67F28516C10A94B5CBD3210909F4B6 /* BALoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BALoadingView.m; path = Pod/Classes/BALoadingView.m; sourceTree = "<group>"; };
+		65A38AA0F69D8BC6D0C417169AA60305 /* NotificationBackgroundSuccessIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundSuccessIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundSuccessIcon@2x.png"; sourceTree = "<group>"; };
+		6712F08ED3CD2C454CE3C08BA19C6498 /* libTSMessages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSMessages.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		6ECAE8DDBCBE30EEE464D2D807EB88D7 /* NotificationBackgroundSuccess@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundSuccess@2x.png"; path = "Pod/Assets/NotificationBackgroundSuccess@2x.png"; sourceTree = "<group>"; };
-		71D317B84FFA76269606E7399C63F317 /* TSMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSMessage.h; path = Pod/Classes/TSMessage.h; sourceTree = "<group>"; };
-		76085F1A180C7CD6B74B217EB6BF658C /* TSMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSMessages.xcconfig; sourceTree = "<group>"; };
-		8528F16D3795EABA1FEAD8EE5F7F4EA6 /* TSMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSMessages-dummy.m"; sourceTree = "<group>"; };
+		6DD6D983664FC467D7C4242C63850CB6 /* libCloudSight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCloudSight.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7876EDE862584CCDBBE4919C67547E /* CloudSightConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightConnection.h; path = CloudSight/CloudSightConnection.h; sourceTree = "<group>"; };
+		6ED3D735563575138A8A5A8350C55FAE /* CloudSightQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightQuery.m; path = CloudSight/CloudSightQuery.m; sourceTree = "<group>"; };
+		7045C1DBCFF04CB01DF88C56BF2FC4FA /* CloudSight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CloudSight-prefix.pch"; sourceTree = "<group>"; };
+		7199ECD8A14BB546204AE97DCBDB40E4 /* NotificationBackgroundError@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundError@2x.png"; path = "Pod/Assets/NotificationBackgroundError@2x.png"; sourceTree = "<group>"; };
+		7E6A8EDBF71AAA76FA1A23F6F75AC8D4 /* BALoadingView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BALoadingView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8245F02EF22E2CE76B01E868198A8CD1 /* BALoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BALoadingView.xcconfig; sourceTree = "<group>"; };
+		878292C98130E22E1A4EB778B4512267 /* BFOAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFOAuth-dummy.m"; sourceTree = "<group>"; };
+		8C4109966C711A2D8DC8956F2DB2A8A7 /* NotificationBackgroundSuccess.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundSuccess.png; path = Pod/Assets/NotificationBackgroundSuccess.png; sourceTree = "<group>"; };
+		8D31012AD04D188A1251A3A5B1FA5B09 /* NotificationBackgroundError.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundError.png; path = Pod/Assets/NotificationBackgroundError.png; sourceTree = "<group>"; };
+		9648542DB8DC480F842F55F0893798D9 /* NotificationBackgroundErrorIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundErrorIcon.png; path = Pod/Assets/NotificationBackgroundErrorIcon.png; sourceTree = "<group>"; };
+		98A12C47BCD9C4E47B16157FD0644016 /* BFOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFOAuth.h; path = BFOAuth/BFOAuth.h; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9A6CB2173066849974D09F24254D9577 /* HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColor.m; path = Classes/HexColor.m; sourceTree = "<group>"; };
-		9D6210A510FFBBAF645152568E49DEF7 /* TSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSBlurView.m; path = Pod/Classes/TSBlurView.m; sourceTree = "<group>"; };
+		9A8752B5A36BF2971B0B819BF0173AC5 /* RequestUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RequestUtils.xcconfig; sourceTree = "<group>"; };
+		9DEF5A5489290E0A31697812E4DDE7FA /* TSMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSMessage.m; path = Pod/Classes/TSMessage.m; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A85A96992B4AFD18A4CE1027F2F4EF33 /* NotificationButtonBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationButtonBackground.png; path = Pod/Assets/NotificationButtonBackground.png; sourceTree = "<group>"; };
-		B8F2A3EA584F8A04D7C381980A7406AE /* NotificationBackgroundError.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundError.png; path = Pod/Assets/NotificationBackgroundError.png; sourceTree = "<group>"; };
+		A2742DD06EE863D62351C9B20706C89D /* BALoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BALoadingView-dummy.m"; sourceTree = "<group>"; };
+		A3D9535653AB71591B6413CD8DFA2C33 /* CloudSightImageResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightImageResponse.m; path = CloudSight/CloudSightImageResponse.m; sourceTree = "<group>"; };
+		AA569377435185E7988FD7E328054377 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AAB2D9C55BEDE2ACB87C0C4CB89EBB30 /* NotificationBackgroundWarningIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundWarningIcon.png; path = Pod/Assets/NotificationBackgroundWarningIcon.png; sourceTree = "<group>"; };
+		AB5D048F5292283E2C0A824872E78BC0 /* CloudSightImageRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightImageRequest.h; path = CloudSight/CloudSightImageRequest.h; sourceTree = "<group>"; };
+		ABCDE99599819785237FD8B765F862E8 /* CloudSightUploadProgressDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightUploadProgressDelegate.h; path = CloudSight/CloudSightUploadProgressDelegate.h; sourceTree = "<group>"; };
+		B0643264C84DDE381AD3725748D61D34 /* RequestUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RequestUtils-dummy.m"; sourceTree = "<group>"; };
+		B4E57A2899A9547A274E94A9F33478CF /* libBFOAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBFOAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA944F8ECF4B4216192C5DFB603361AD /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
-		CDD941450DD7FA5D8E8BEFB8D31A1BA7 /* NotificationBackgroundWarning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundWarning@2x.png"; path = "Pod/Assets/NotificationBackgroundWarning@2x.png"; sourceTree = "<group>"; };
-		D096958F3185F15C51EFB0FA5EC3380B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DECA6A9B4F427FD6537425E9D934942D /* NotificationBackgroundSuccessIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundSuccessIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundSuccessIcon@2x.png"; sourceTree = "<group>"; };
-		E788C147D4B9E98A59D012DC8C6B55DF /* TSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSBlurView.h; path = Pod/Classes/TSBlurView.h; sourceTree = "<group>"; };
-		EF5D4E7E12D395BC928E3321D3F1924A /* NotificationBackgroundWarningIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundWarningIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundWarningIcon@2x.png"; sourceTree = "<group>"; };
-		F1FDDA903C82ED2D8BF4AD5649616EF9 /* NotificationBackgroundError@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundError@2x.png"; path = "Pod/Assets/NotificationBackgroundError@2x.png"; sourceTree = "<group>"; };
-		FC3733A8D32A9CAA835BAADF5FF2A5CC /* HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColor.h; path = Classes/HexColor.h; sourceTree = "<group>"; };
+		BBDEA683E6AE073D527F4D33863CC64C /* CloudSightQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightQuery.h; path = CloudSight/CloudSightQuery.h; sourceTree = "<group>"; };
+		CD74FB18A0172E96BBFCC314DD2C5488 /* libHexColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHexColors.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15AE16BD5EE2862394C791806E493A7 /* BFOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFOAuth.m; path = BFOAuth/BFOAuth.m; sourceTree = "<group>"; };
+		D36D9335295A8EDDD6C6528CC8A58742 /* TSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSBlurView.m; path = Pod/Classes/TSBlurView.m; sourceTree = "<group>"; };
+		D44F1875F3584DC5C8594B3829517ABD /* NotificationBackgroundMessage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundMessage@2x.png"; path = "Pod/Assets/NotificationBackgroundMessage@2x.png"; sourceTree = "<group>"; };
+		D4889F777CEED698E04AD76A25488D3C /* BALoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BALoadingView.h; path = Pod/Classes/BALoadingView.h; sourceTree = "<group>"; };
+		D968F53A25B07441F66968FE819FD413 /* NotificationBackgroundWarning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundWarning.png; path = Pod/Assets/NotificationBackgroundWarning.png; sourceTree = "<group>"; };
+		E5134C1EB89B2D9225AF025E20CD9ED5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		E63089E4203BABB939680FC29D52EFCD /* TSMessagesDefaultDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = TSMessagesDefaultDesign.json; path = Pod/Assets/TSMessagesDefaultDesign.json; sourceTree = "<group>"; };
+		E97734CE5D64E83DBF6CBCDC0FF2D997 /* RequestUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RequestUtils.m; path = RequestUtils/RequestUtils.m; sourceTree = "<group>"; };
+		EAA6C35CE53CA56314717FF7126881A6 /* NotificationBackgroundMessage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundMessage.png; path = Pod/Assets/NotificationBackgroundMessage.png; sourceTree = "<group>"; };
+		EBF5106BAA30194763CAE45F0A870BDE /* CloudSightConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightConnection.m; path = CloudSight/CloudSightConnection.m; sourceTree = "<group>"; };
+		EF44173A7B0D9BCA2DE000628E0ECD0C /* CloudSightImageResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightImageResponse.h; path = CloudSight/CloudSightImageResponse.h; sourceTree = "<group>"; };
+		EFB240F69CE6895940C384EE2B24E16B /* CloudSight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CloudSight-dummy.m"; sourceTree = "<group>"; };
+		F492280CBD235CD4FFC70A8E6B9006DD /* NotificationBackgroundErrorIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundErrorIcon@2x.png"; path = "Pod/Assets/NotificationBackgroundErrorIcon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05F54BC8DF3DFCFCC987236A58644346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1C900E1464F44A282883609CB70D3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1CA9E4B06AF82B7C67DC302218579D08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,19 +230,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D3AACE8A1902E089FCE4FA4545582D1 /* Frameworks */ = {
+		3C544E054E0AB1348AF8B9199C08AD5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8306DEDA1B1C7E565238D5C07658A220 /* Foundation.framework in Frameworks */,
+				06237F1120547E55C59A6D604641CEDB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCC5CABCD499DBC46684D4B56CBFBDE0 /* Frameworks */ = {
+		6A2D347F325E13EDEDF830EE810317C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAFEA22A0137A2CB182D7CD0D1979E46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EFF1026DB6F39BDD08F1A125974FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D506A9EA84E2B74C7DCE839F8F574A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E30C9FB2652ABD21188B72AB47786A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B03081E3E4D5BD5CEC18694CE38C15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18BB58224FEF4F5B0104E8DE15446FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642633C63D62ADB03D1B828DFD091E90 /* CoreGraphics.framework in Frameworks */,
+				DF7E14382A8322ACCE09B1ECF09ED467 /* CoreLocation.framework in Frameworks */,
+				CE61DA5610FC95B9098298C259827F24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55CD8B64C986694A677E8F5E8A6FAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB15D78769684035BE1E82380E1E6DA9 /* Foundation.framework in Frameworks */,
+				C379B31916361C3628C2436A4066550E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,69 +291,150 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		071301B5E1AB6303175D154EA53A4C63 /* Support Files */ = {
+		0D59FC1C90FA495A970AE63AEC76B097 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				76085F1A180C7CD6B74B217EB6BF658C /* TSMessages.xcconfig */,
-				8528F16D3795EABA1FEAD8EE5F7F4EA6 /* TSMessages-dummy.m */,
-				2135D884979C9208826F6FDC21553AA9 /* TSMessages-prefix.pch */,
+				276D40915431CA3514FE32E5E132B000 /* CoreGraphics.framework */,
+				E5134C1EB89B2D9225AF025E20CD9ED5 /* CoreLocation.framework */,
+				284C0650FCF507C535084B85850179B8 /* Foundation.framework */,
+				AA569377435185E7988FD7E328054377 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D59FC1C90FA495A970AE63AEC76B097 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19B142B4036986CEB7634D11C3DD6143 /* BFOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				98A12C47BCD9C4E47B16157FD0644016 /* BFOAuth.h */,
+				D15AE16BD5EE2862394C791806E493A7 /* BFOAuth.m */,
+				C83D9C567077328CB6A1E0BC2B2E9169 /* Support Files */,
+			);
+			path = BFOAuth;
+			sourceTree = "<group>";
+		};
+		295077C64991C347D5F06A81B4A13F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E6A8EDBF71AAA76FA1A23F6F75AC8D4 /* BALoadingView.bundle */,
+				3DA4E1053FBA1AC67E3EC94CEA666BC1 /* libBALoadingView.a */,
+				B4E57A2899A9547A274E94A9F33478CF /* libBFOAuth.a */,
+				6DD6D983664FC467D7C4242C63850CB6 /* libCloudSight.a */,
+				CD74FB18A0172E96BBFCC314DD2C5488 /* libHexColors.a */,
+				5EE98A835E285AE506C05EAD88408D62 /* libPods.a */,
+				550C1851AE57D14960F71546935EC033 /* libRequestUtils.a */,
+				6712F08ED3CD2C454CE3C08BA19C6498 /* libTSMessages.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3D8EDFAF135DB7BDCA7DB14E0396E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8245F02EF22E2CE76B01E868198A8CD1 /* BALoadingView.xcconfig */,
+				A2742DD06EE863D62351C9B20706C89D /* BALoadingView-dummy.m */,
+				295DD3AE2F2CE415257E2380C8E3D0AD /* BALoadingView-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/TSMessages";
+			path = "../Target Support Files/BALoadingView";
 			sourceTree = "<group>";
 		};
-		230C307D07F5CCB67DCE11EB1EF4DADE /* Pods */ = {
+		4D26623DD7834EB7E2C9F8B0540D2863 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				23149E6F18845E4C2BC11ADC9533ABD9 /* HexColors */,
-				E53179C65AF3DDE14B2A16D28631CD6F /* TSMessages */,
+				510EDD2B36E96ACDC9D38E016D409730 /* HexColors.xcconfig */,
+				4225AC8A227136B99CBDB6EC47867354 /* HexColors-dummy.m */,
+				3C1BED116020F51842B837F19AB7BC66 /* HexColors-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/HexColors";
 			sourceTree = "<group>";
 		};
-		23149E6F18845E4C2BC11ADC9533ABD9 /* HexColors */ = {
+		573941276EA9FDFB4F2F65C80EF1DD0D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FC3733A8D32A9CAA835BAADF5FF2A5CC /* HexColor.h */,
-				9A6CB2173066849974D09F24254D9577 /* HexColor.m */,
-				E49F285FBCF1539FF02B66031DB25BC9 /* Support Files */,
-			);
-			path = HexColors;
-			sourceTree = "<group>";
-		};
-		6F95CBA4CAC241DC38D9D334E041A48A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B8F2A3EA584F8A04D7C381980A7406AE /* NotificationBackgroundError.png */,
-				F1FDDA903C82ED2D8BF4AD5649616EF9 /* NotificationBackgroundError@2x.png */,
-				3ECBC2187A0586B1381F5F8ED90DDE5F /* NotificationBackgroundErrorIcon.png */,
-				547E63B75D199E1A79F83ABD2EE27262 /* NotificationBackgroundErrorIcon@2x.png */,
-				394664383A6E69079040A504664C65A5 /* NotificationBackgroundMessage.png */,
-				06B9A2E55A695CB42AF5E281B82A99CC /* NotificationBackgroundMessage@2x.png */,
-				2320674A9A1FB5B6E00A4F82A211330D /* NotificationBackgroundSuccess.png */,
-				6ECAE8DDBCBE30EEE464D2D807EB88D7 /* NotificationBackgroundSuccess@2x.png */,
-				434D6FF4ACE3D1BD3CB65E617A11480E /* NotificationBackgroundSuccessIcon.png */,
-				DECA6A9B4F427FD6537425E9D934942D /* NotificationBackgroundSuccessIcon@2x.png */,
-				450489FF55A8A6AF1D5BA109BA3E0C96 /* NotificationBackgroundWarning.png */,
-				CDD941450DD7FA5D8E8BEFB8D31A1BA7 /* NotificationBackgroundWarning@2x.png */,
-				062471783DDAFA4840F402F58AB38B47 /* NotificationBackgroundWarningIcon.png */,
-				EF5D4E7E12D395BC928E3321D3F1924A /* NotificationBackgroundWarningIcon@2x.png */,
-				A85A96992B4AFD18A4CE1027F2F4EF33 /* NotificationButtonBackground.png */,
-				6335F695F04A9D11B49B1822A26A3401 /* NotificationButtonBackground@2x.png */,
-				156E2E20FA54789DC9449D7A66A55D6C /* TSMessagesDefaultDesign.json */,
+				8D31012AD04D188A1251A3A5B1FA5B09 /* NotificationBackgroundError.png */,
+				7199ECD8A14BB546204AE97DCBDB40E4 /* NotificationBackgroundError@2x.png */,
+				9648542DB8DC480F842F55F0893798D9 /* NotificationBackgroundErrorIcon.png */,
+				F492280CBD235CD4FFC70A8E6B9006DD /* NotificationBackgroundErrorIcon@2x.png */,
+				EAA6C35CE53CA56314717FF7126881A6 /* NotificationBackgroundMessage.png */,
+				D44F1875F3584DC5C8594B3829517ABD /* NotificationBackgroundMessage@2x.png */,
+				8C4109966C711A2D8DC8956F2DB2A8A7 /* NotificationBackgroundSuccess.png */,
+				4A6C70A45E1B27271E1137EA5AFB396B /* NotificationBackgroundSuccess@2x.png */,
+				22D42B21F61C97D6734A5CBB5C530E44 /* NotificationBackgroundSuccessIcon.png */,
+				65A38AA0F69D8BC6D0C417169AA60305 /* NotificationBackgroundSuccessIcon@2x.png */,
+				D968F53A25B07441F66968FE819FD413 /* NotificationBackgroundWarning.png */,
+				290D06017EAA1E078B9CFCFCB0521C6A /* NotificationBackgroundWarning@2x.png */,
+				AAB2D9C55BEDE2ACB87C0C4CB89EBB30 /* NotificationBackgroundWarningIcon.png */,
+				454E288CB4120835FD919B9F2E835C36 /* NotificationBackgroundWarningIcon@2x.png */,
+				37200301000FD17A7A1B82755E8F9559 /* NotificationButtonBackground.png */,
+				250F5FDBAF4F569800B68E1C7B250122 /* NotificationButtonBackground@2x.png */,
+				E63089E4203BABB939680FC29D52EFCD /* TSMessagesDefaultDesign.json */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		5894207C5495EE771A804B928910D386 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C15DB6F2951857838636D45C2372C5E /* CloudSight.xcconfig */,
+				EFB240F69CE6895940C384EE2B24E16B /* CloudSight-dummy.m */,
+				7045C1DBCFF04CB01DF88C56BF2FC4FA /* CloudSight-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CloudSight";
+			sourceTree = "<group>";
+		};
+		709105630C7BF3CACEBB411131CBD2AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CE85DED99312737DBF88F7BA3516E6E /* BALoadingView */,
+				19B142B4036986CEB7634D11C3DD6143 /* BFOAuth */,
+				EA64086050AF67C0370054F0089547B3 /* CloudSight */,
+				DEACE722686C33792B500DB2EE1D6C67 /* HexColors */,
+				D809274C9650BEC17AD7435C8F306885 /* RequestUtils */,
+				F18B49A7453E0ADB11EE807CB233F2AB /* TSMessages */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				230C307D07F5CCB67DCE11EB1EF4DADE /* Pods */,
-				E640D0B08861A3490A010C2344DDDB09 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				709105630C7BF3CACEBB411131CBD2AC /* Pods */,
+				295077C64991C347D5F06A81B4A13F5A /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8AE499D88C60B5B9B6778BE5D8D26BFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD86DC697B86F255632B02BE243397 /* TSMessages.xcconfig */,
+				05E10AF095C915E66F78F0A48E40508A /* TSMessages-dummy.m */,
+				163052FEE685C482731CD81BBE500C16 /* TSMessages-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TSMessages";
+			sourceTree = "<group>";
+		};
+		8CE85DED99312737DBF88F7BA3516E6E /* BALoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				D4889F777CEED698E04AD76A25488D3C /* BALoadingView.h */,
+				5F67F28516C10A94B5CBD3210909F4B6 /* BALoadingView.m */,
+				4C3D8EDFAF135DB7BDCA7DB14E0396E1 /* Support Files */,
+			);
+			path = BALoadingView;
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -209,61 +452,138 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C83D9C567077328CB6A1E0BC2B2E9169 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E49F285FBCF1539FF02B66031DB25BC9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				48578F6C1167D0168AD475DFB373314C /* HexColors.xcconfig */,
-				6229C34BDBCFA03ECD9BF1AD79201088 /* HexColors-dummy.m */,
-				BA944F8ECF4B4216192C5DFB603361AD /* HexColors-prefix.pch */,
+				38B3CA05EFB37DBE1C69F538DFFADF1D /* BFOAuth.xcconfig */,
+				878292C98130E22E1A4EB778B4512267 /* BFOAuth-dummy.m */,
+				364AE89CBF70BE04B793B6963B81E03A /* BFOAuth-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/HexColors";
+			path = "../Target Support Files/BFOAuth";
 			sourceTree = "<group>";
 		};
-		E53179C65AF3DDE14B2A16D28631CD6F /* TSMessages */ = {
+		CDA52F3872D74A599BB56231FA5B5031 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E788C147D4B9E98A59D012DC8C6B55DF /* TSBlurView.h */,
-				9D6210A510FFBBAF645152568E49DEF7 /* TSBlurView.m */,
-				71D317B84FFA76269606E7399C63F317 /* TSMessage.h */,
-				1BFC7AAAC708614A762FE5B1748228B7 /* TSMessage.m */,
-				427F9B9DBD9AA84E300D915A90B73C62 /* TSMessageView.h */,
-				376EE04E6492E91B3D97D65B748AA06B /* TSMessageView.m */,
-				6F95CBA4CAC241DC38D9D334E041A48A /* Resources */,
-				071301B5E1AB6303175D154EA53A4C63 /* Support Files */,
+				9A8752B5A36BF2971B0B819BF0173AC5 /* RequestUtils.xcconfig */,
+				B0643264C84DDE381AD3725748D61D34 /* RequestUtils-dummy.m */,
+				50FC1BEF5B4FEC4C3B73E51A33B00DCB /* RequestUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RequestUtils";
+			sourceTree = "<group>";
+		};
+		D809274C9650BEC17AD7435C8F306885 /* RequestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				058933DA908C4409CACD46FC275D1E33 /* RequestUtils.h */,
+				E97734CE5D64E83DBF6CBCDC0FF2D997 /* RequestUtils.m */,
+				CDA52F3872D74A599BB56231FA5B5031 /* Support Files */,
+			);
+			path = RequestUtils;
+			sourceTree = "<group>";
+		};
+		DEACE722686C33792B500DB2EE1D6C67 /* HexColors */ = {
+			isa = PBXGroup;
+			children = (
+				2C9CFDF123DBE477A3A311583F87AAFA /* HexColor.h */,
+				0BAAA60390A7BBDED71C1E07A16A5CE8 /* HexColor.m */,
+				4D26623DD7834EB7E2C9F8B0540D2863 /* Support Files */,
+			);
+			path = HexColors;
+			sourceTree = "<group>";
+		};
+		EA64086050AF67C0370054F0089547B3 /* CloudSight */ = {
+			isa = PBXGroup;
+			children = (
+				59ACD480D2A7A51E6E956BBD3A47CC25 /* CloudSight.h */,
+				6E7876EDE862584CCDBBE4919C67547E /* CloudSightConnection.h */,
+				EBF5106BAA30194763CAE45F0A870BDE /* CloudSightConnection.m */,
+				455592953A6D003A78EB0F04A1C0E5E0 /* CloudSightDelete.h */,
+				160297C02E8945AC65B003CADABAD87B /* CloudSightDelete.m */,
+				AB5D048F5292283E2C0A824872E78BC0 /* CloudSightImageRequest.h */,
+				350A4A1EB79919EC3309B86262E4A2AE /* CloudSightImageRequest.m */,
+				58DD9F629FFEAC2B421B3A02EF150AEF /* CloudSightImageRequestDelegate.h */,
+				EF44173A7B0D9BCA2DE000628E0ECD0C /* CloudSightImageResponse.h */,
+				A3D9535653AB71591B6413CD8DFA2C33 /* CloudSightImageResponse.m */,
+				BBDEA683E6AE073D527F4D33863CC64C /* CloudSightQuery.h */,
+				6ED3D735563575138A8A5A8350C55FAE /* CloudSightQuery.m */,
+				5EE7A2006F2E2C153989DE1E315BDB20 /* CloudSightQueryDelegate.h */,
+				ABCDE99599819785237FD8B765F862E8 /* CloudSightUploadProgressDelegate.h */,
+				5894207C5495EE771A804B928910D386 /* Support Files */,
+			);
+			path = CloudSight;
+			sourceTree = "<group>";
+		};
+		F18B49A7453E0ADB11EE807CB233F2AB /* TSMessages */ = {
+			isa = PBXGroup;
+			children = (
+				4DFD5D7272D50AFAF5C83E6C934AD344 /* TSBlurView.h */,
+				D36D9335295A8EDDD6C6528CC8A58742 /* TSBlurView.m */,
+				2309C9A19FFA3C0C642F2ED92F13C1C0 /* TSMessage.h */,
+				9DEF5A5489290E0A31697812E4DDE7FA /* TSMessage.m */,
+				4F89D57551A3FB4369C9F17CA41A8FD0 /* TSMessageView.h */,
+				574E4650B8509E44EF85711900FB3207 /* TSMessageView.m */,
+				573941276EA9FDFB4F2F65C80EF1DD0D /* Resources */,
+				8AE499D88C60B5B9B6778BE5D8D26BFE /* Support Files */,
 			);
 			path = TSMessages;
-			sourceTree = "<group>";
-		};
-		E640D0B08861A3490A010C2344DDDB09 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2D74F3556FFF49C2EF9EC0A476B42776 /* libHexColors.a */,
-				D096958F3185F15C51EFB0FA5EC3380B /* libPods.a */,
-				1E640978FFB89514748C085E770AE429 /* libTSMessages.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		38CCCAEA89260C0DDEA5FCBFF4CDCE25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E048D8031162169A0364B010267CB7 /* CloudSight.h in Headers */,
+				C29BF379AA945CD185545222D314B5A6 /* CloudSightConnection.h in Headers */,
+				1F022EB0516E95F9D2C02397AE07946A /* CloudSightDelete.h in Headers */,
+				DFD9F981B3972BAD371FC5D4D8C7DADC /* CloudSightImageRequest.h in Headers */,
+				BF02C73D78B893A8CB9B987841CA9344 /* CloudSightImageRequestDelegate.h in Headers */,
+				85D8774124DEB6F6E567B16862CE84BA /* CloudSightImageResponse.h in Headers */,
+				F459A06527982217051CAACEF4B49B90 /* CloudSightQuery.h in Headers */,
+				FB0E66F9E8A9C91D33B3937ACFE1FCB9 /* CloudSightQueryDelegate.h in Headers */,
+				4EDAEB3A0187CC86D07955132C181378 /* CloudSightUploadProgressDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712635BBE8266B047C8DBB012D389F5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1E99148707B6D002845D5816C9C396 /* RequestUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3FB738467D36A98460E9335C1EF854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDCB36894E93B70D59F0CD0B2FDD403 /* BALoadingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFDAECC42702D7E79C99C9D9B51A043 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF169803757AF148407EF4C37083AB3D /* TSBlurView.h in Headers */,
+				0EFF7E0D57345E18B1B19B5AD5081D3E /* TSMessage.h in Headers */,
+				5EC9B2D55E314A4378805413BA3E6003 /* TSMessageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0201AA3246A7E72AEBE8F08F1ED96E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D5CD2A75B0DAEC799D4B733162229D /* BFOAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F76C84D031AB738E21FC91B86C76B41A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,53 +592,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF78784E684EB6A23FBF75924D609631 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF941218636D1F46D90CF227B032598C /* TSBlurView.h in Headers */,
-				585081B2966C26FC80D404EBCF766E40 /* TSMessage.h in Headers */,
-				112CCCA2FF597F9EBFEF7AF453A9B333 /* TSMessageView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		00F4F68195F69C2451FB385F77A2DED3 /* Pods */ = {
+		16A9500B0C179DA4F371BC4AC064E738 /* CloudSight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23B5C8550DDE94FBEF1607A40B170774 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 2320D758C06482F7578C301EA26FC916 /* Build configuration list for PBXNativeTarget "CloudSight" */;
 			buildPhases = (
-				90360BDFDCF7683AC07123E082C12DE1 /* Sources */,
-				3D3AACE8A1902E089FCE4FA4545582D1 /* Frameworks */,
+				617DD46302EC906577D3868A574D9629 /* Sources */,
+				C18BB58224FEF4F5B0104E8DE15446FA /* Frameworks */,
+				38CCCAEA89260C0DDEA5FCBFF4CDCE25 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				70AE3C42FD47EF865DED29B9110B9B7C /* PBXTargetDependency */,
-				0CBFC6C1C3AE4A97903594EC791451A5 /* PBXTargetDependency */,
+				AD0D265C1E2C60A2D89A9F0C8F273D15 /* PBXTargetDependency */,
+				633BC1968E25DCDCD48CF6DC1E6B7870 /* PBXTargetDependency */,
+			);
+			name = CloudSight;
+			productName = CloudSight;
+			productReference = 6DD6D983664FC467D7C4242C63850CB6 /* libCloudSight.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		255D7D01D03AFF9F224C1372951FADA8 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95ADCDD6144EE1B93F063A792413061 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				5C57F557F3A80511E651029A37B7F1A4 /* Sources */,
+				3C544E054E0AB1348AF8B9199C08AD5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C824B236B1D3E077024C3ED422068B3 /* PBXTargetDependency */,
+				51EE199188E4D49B39A327E5B313472B /* PBXTargetDependency */,
+				F9CAAD4CB133C2EDB0D7A64B406C92A9 /* PBXTargetDependency */,
+				2977E2099A975F0DF87F5217E908B672 /* PBXTargetDependency */,
+				7C87285CC7BF269A6A04D766B6E51943 /* PBXTargetDependency */,
+				AE53172698E1430394E0441526B7C9C2 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = D096958F3185F15C51EFB0FA5EC3380B /* libPods.a */;
+			productReference = 5EE98A835E285AE506C05EAD88408D62 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9DEE168E1CB1251ACB052818EAA1E979 /* TSMessages */ = {
+		496953AC690E7E95A3AE0C8180924FC6 /* BALoadingView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2615B875AB8C789AED7C96041479DB8F /* Build configuration list for PBXNativeTarget "TSMessages" */;
+			buildConfigurationList = 7DD612FC73BCC22E140DA8824EDA5C7B /* Build configuration list for PBXNativeTarget "BALoadingView" */;
 			buildPhases = (
-				BA5F3DC074448A0DC2BCA835BD6A1595 /* Sources */,
-				DCC5CABCD499DBC46684D4B56CBFBDE0 /* Frameworks */,
-				FF78784E684EB6A23FBF75924D609631 /* Headers */,
+				26DB162B067F31988C9938EEA119A448 /* Sources */,
+				E55CD8B64C986694A677E8F5E8A6FAD5 /* Frameworks */,
+				BD3FB738467D36A98460E9335C1EF854 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				33D17E7F4CABCB4A364EA34432B2DA65 /* PBXTargetDependency */,
+				14923B7A76A45B68B33F5B1F6057AF07 /* PBXTargetDependency */,
+			);
+			name = BALoadingView;
+			productName = BALoadingView;
+			productReference = 3DA4E1053FBA1AC67E3EC94CEA666BC1 /* libBALoadingView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8BAB10E1352E459B00B286F03C740580 /* BALoadingView-BALoadingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B7ED7D98BF4558141A77AFE95A52E8 /* Build configuration list for PBXNativeTarget "BALoadingView-BALoadingView" */;
+			buildPhases = (
+				33DCDC39904E550806868C99E101B807 /* Sources */,
+				6A2D347F325E13EDEDF830EE810317C5 /* Frameworks */,
+				623A86D4DE71D5C88A3C9FC22568461A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BALoadingView-BALoadingView";
+			productName = "BALoadingView-BALoadingView";
+			productReference = 7E6A8EDBF71AAA76FA1A23F6F75AC8D4 /* BALoadingView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A8C87BE8B34E43D731BCB89F769BF2CA /* TSMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0291D2B1302CDC43BD34F28863F68F /* Build configuration list for PBXNativeTarget "TSMessages" */;
+			buildPhases = (
+				4B89F3801B592A6249FB46C5BAF06A2D /* Sources */,
+				8E30C9FB2652ABD21188B72AB47786A1 /* Frameworks */,
+				CBFDAECC42702D7E79C99C9D9B51A043 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9006FE3DF0F78C79238E511029E4DF3D /* PBXTargetDependency */,
 			);
 			name = TSMessages;
 			productName = TSMessages;
-			productReference = 1E640978FFB89514748C085E770AE429 /* libTSMessages.a */;
+			productReference = 6712F08ED3CD2C454CE3C08BA19C6498 /* libTSMessages.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF941962E5DDC3BE50822536113FCB5F /* BFOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C89F698BF87161E08054A4F4B01D804 /* Build configuration list for PBXNativeTarget "BFOAuth" */;
+			buildPhases = (
+				9319F9451188D802ADFE0D8B4E305452 /* Sources */,
+				78EFF1026DB6F39BDD08F1A125974FEB /* Frameworks */,
+				D0201AA3246A7E72AEBE8F08F1ED96E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFOAuth;
+			productName = BFOAuth;
+			productReference = B4E57A2899A9547A274E94A9F33478CF /* libBFOAuth.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E9EF397B95762DDB254C71DDCB4B1381 /* HexColors */ = {
@@ -335,7 +720,24 @@
 			);
 			name = HexColors;
 			productName = HexColors;
-			productReference = 2D74F3556FFF49C2EF9EC0A476B42776 /* libHexColors.a */;
+			productReference = CD74FB18A0172E96BBFCC314DD2C5488 /* libHexColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC133B12170877E6FBF6934073A66D6A /* RequestUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9480F09D88023784B4252A9587D44F39 /* Build configuration list for PBXNativeTarget "RequestUtils" */;
+			buildPhases = (
+				C36E45109B3C83968F30F6BC4BB24BE4 /* Sources */,
+				05F54BC8DF3DFCFCC987236A58644346 /* Frameworks */,
+				712635BBE8266B047C8DBB012D389F5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RequestUtils;
+			productName = RequestUtils;
+			productReference = 550C1851AE57D14960F71546935EC033 /* libRequestUtils.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -355,34 +757,96 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E640D0B08861A3490A010C2344DDDB09 /* Products */;
+			productRefGroup = 295077C64991C347D5F06A81B4A13F5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				496953AC690E7E95A3AE0C8180924FC6 /* BALoadingView */,
+				8BAB10E1352E459B00B286F03C740580 /* BALoadingView-BALoadingView */,
+				CF941962E5DDC3BE50822536113FCB5F /* BFOAuth */,
+				16A9500B0C179DA4F371BC4AC064E738 /* CloudSight */,
 				E9EF397B95762DDB254C71DDCB4B1381 /* HexColors */,
-				00F4F68195F69C2451FB385F77A2DED3 /* Pods */,
-				9DEE168E1CB1251ACB052818EAA1E979 /* TSMessages */,
+				255D7D01D03AFF9F224C1372951FADA8 /* Pods */,
+				FC133B12170877E6FBF6934073A66D6A /* RequestUtils */,
+				A8C87BE8B34E43D731BCB89F769BF2CA /* TSMessages */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		90360BDFDCF7683AC07123E082C12DE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		623A86D4DE71D5C88A3C9FC22568461A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A05D163D38A365615AF93A2EF469A9 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA5F3DC074448A0DC2BCA835BD6A1595 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DB162B067F31988C9938EEA119A448 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B4AEA6282D76734925F3D7428204964 /* TSBlurView.m in Sources */,
-				F5CC8E4A47B6F692D40C936365CBD865 /* TSMessage.m in Sources */,
-				A02D3D4C9CC5D88417220024B14499B4 /* TSMessages-dummy.m in Sources */,
-				4DAC0EEE3A2EAA7166211A60596A8E4C /* TSMessageView.m in Sources */,
+				624C2AF7418BECE442C4D76BDCD46140 /* BALoadingView-dummy.m in Sources */,
+				0D77184D64FBEF1D63E375E32C715E3F /* BALoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DCDC39904E550806868C99E101B807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B89F3801B592A6249FB46C5BAF06A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F594538C5EB6D9AEB8A8CEF64E5C952C /* TSBlurView.m in Sources */,
+				26422626BFB471A8B6083AA229311B39 /* TSMessage.m in Sources */,
+				556783C9570B420C573F671B6A412BC2 /* TSMessages-dummy.m in Sources */,
+				E1D5D2A495FFAC9410F3552E894C6B7C /* TSMessageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C57F557F3A80511E651029A37B7F1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26043C6012CA502D793D18E3BC23E635 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617DD46302EC906577D3868A574D9629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B15EA983E4E01BC34E9601C612BD26 /* CloudSight-dummy.m in Sources */,
+				36128594D0415DB30430A9723933E128 /* CloudSightConnection.m in Sources */,
+				1F63CE2459F933D1A5AACE0EF6FFDA1E /* CloudSightDelete.m in Sources */,
+				94F154969F5A9057C2D9178E77045961 /* CloudSightImageRequest.m in Sources */,
+				A69DC69E1EE814F9C1A49CA34DFD1C6D /* CloudSightImageResponse.m in Sources */,
+				9D0E3CD46D4697B10D61F02E046649BF /* CloudSightQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9319F9451188D802ADFE0D8B4E305452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2900FC993CDB6A5FDC3A86E83D91A34 /* BFOAuth-dummy.m in Sources */,
+				C19C8546B353E01A53B6F2C1FD74110B /* BFOAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E45109B3C83968F30F6BC4BB24BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FC8587BC8D070E1ACD72F53558D531 /* RequestUtils-dummy.m in Sources */,
+				9647145EBF66658433B6C3B2799C6107 /* RequestUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,51 +862,76 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0CBFC6C1C3AE4A97903594EC791451A5 /* PBXTargetDependency */ = {
+		14923B7A76A45B68B33F5B1F6057AF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BALoadingView-BALoadingView";
+			target = 8BAB10E1352E459B00B286F03C740580 /* BALoadingView-BALoadingView */;
+			targetProxy = 852E930DA5D767ED4CABBA463EC89FA8 /* PBXContainerItemProxy */;
+		};
+		1C824B236B1D3E077024C3ED422068B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BALoadingView;
+			target = 496953AC690E7E95A3AE0C8180924FC6 /* BALoadingView */;
+			targetProxy = 8D7880DAF0317AAEEAC5301E8BA71EA4 /* PBXContainerItemProxy */;
+		};
+		2977E2099A975F0DF87F5217E908B672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = E9EF397B95762DDB254C71DDCB4B1381 /* HexColors */;
+			targetProxy = 0E191429DCF5E35335892EA07F337464 /* PBXContainerItemProxy */;
+		};
+		51EE199188E4D49B39A327E5B313472B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BFOAuth;
+			target = CF941962E5DDC3BE50822536113FCB5F /* BFOAuth */;
+			targetProxy = 243CA14A02EA631A56734D626E441D16 /* PBXContainerItemProxy */;
+		};
+		633BC1968E25DCDCD48CF6DC1E6B7870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RequestUtils;
+			target = FC133B12170877E6FBF6934073A66D6A /* RequestUtils */;
+			targetProxy = 4F49CF7083FABDAA54A037454FD5FCDB /* PBXContainerItemProxy */;
+		};
+		7C87285CC7BF269A6A04D766B6E51943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RequestUtils;
+			target = FC133B12170877E6FBF6934073A66D6A /* RequestUtils */;
+			targetProxy = 6C593F0AC89DBA1058D9BA5207A4A8C3 /* PBXContainerItemProxy */;
+		};
+		9006FE3DF0F78C79238E511029E4DF3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = E9EF397B95762DDB254C71DDCB4B1381 /* HexColors */;
+			targetProxy = 57D390AA43A9B7583E027A75AD9AC70D /* PBXContainerItemProxy */;
+		};
+		AD0D265C1E2C60A2D89A9F0C8F273D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BFOAuth;
+			target = CF941962E5DDC3BE50822536113FCB5F /* BFOAuth */;
+			targetProxy = 42BCCF3664FCE99EF50427E49BAC563A /* PBXContainerItemProxy */;
+		};
+		AE53172698E1430394E0441526B7C9C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSMessages;
-			target = 9DEE168E1CB1251ACB052818EAA1E979 /* TSMessages */;
-			targetProxy = D4FC6C17FBF8158EDCD35D801CD01494 /* PBXContainerItemProxy */;
+			target = A8C87BE8B34E43D731BCB89F769BF2CA /* TSMessages */;
+			targetProxy = A730E67E0E9B499BA10E66C161A2070D /* PBXContainerItemProxy */;
 		};
-		33D17E7F4CABCB4A364EA34432B2DA65 /* PBXTargetDependency */ = {
+		F9CAAD4CB133C2EDB0D7A64B406C92A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HexColors;
-			target = E9EF397B95762DDB254C71DDCB4B1381 /* HexColors */;
-			targetProxy = AF09BCAB0FAE0CB665ED50AF39309324 /* PBXContainerItemProxy */;
-		};
-		70AE3C42FD47EF865DED29B9110B9B7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HexColors;
-			target = E9EF397B95762DDB254C71DDCB4B1381 /* HexColors */;
-			targetProxy = 8F3AFD4C50346E3EB6E211655FC42719 /* PBXContainerItemProxy */;
+			name = CloudSight;
+			target = 16A9500B0C179DA4F371BC4AC064E738 /* CloudSight */;
+			targetProxy = CF4B3B5D7C41DCC592E6997FE7D7CDAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2053CCF418A5348CDF26E69E43EAF06C /* Debug */ = {
+		03218B2AFA592780BF2F2DA27755F8E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 0C15DB6F2951857838636D45C2372C5E /* CloudSight.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3DD6078BDC0C1E91CA7EA2E647795E12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76085F1A180C7CD6B74B217EB6BF658C /* TSMessages.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TSMessages/TSMessages-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				GCC_PREFIX_HEADER = "Target Support Files/CloudSight/CloudSight-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -454,7 +943,249 @@
 			};
 			name = Debug;
 		};
-		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+		0EFE1E6979B00D042CCB2045E7291783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAD86DC697B86F255632B02BE243397 /* TSMessages.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSMessages/TSMessages-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		10BC3CC89F3E196EB2F0F39ABD6FB9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2CCD17399E9DBEDEC37AE229FFA41CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8245F02EF22E2CE76B01E868198A8CD1 /* BALoadingView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BALoadingView/BALoadingView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		42CE8DA85C0974BD9263E1DD00B9DC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A9E0C147DB7D92DBD8F1DEA0C383C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8752B5A36BF2971B0B819BF0173AC5 /* RequestUtils.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RequestUtils/RequestUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6C17B881970BAF668F8388C7346445A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510EDD2B36E96ACDC9D38E016D409730 /* HexColors.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6C752038C053706803E4DC38C374345F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8752B5A36BF2971B0B819BF0173AC5 /* RequestUtils.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RequestUtils/RequestUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		83A09AC120AC98C4DACB860AD6ADF056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8245F02EF22E2CE76B01E868198A8CD1 /* BALoadingView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BALoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		89D4606DB86E6B1D54F021C1D15ED282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8245F02EF22E2CE76B01E868198A8CD1 /* BALoadingView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BALoadingView/BALoadingView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8C95A74AFD255403F47B90C264CB409F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510EDD2B36E96ACDC9D38E016D409730 /* HexColors.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9EE9711AC94AE7BA37FF95DB5D8F339A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAD86DC697B86F255632B02BE243397 /* TSMessages.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSMessages/TSMessages-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A3CF5EC24D42D0E98F9BF4C5CCB7BEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B3CA05EFB37DBE1C69F538DFFADF1D /* BFOAuth.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BFOAuth/BFOAuth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -486,72 +1217,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+		C4F61F1B05D11C85569DBA80746FB6A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A96D6EC41E5232ED74CD10539249EF1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48578F6C1167D0168AD475DFB373314C /* HexColors.xcconfig */;
+			baseConfigurationReference = 38B3CA05EFB37DBE1C69F538DFFADF1D /* BFOAuth.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B30F45CE400FF05C1E0B7A611CF20F20 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76085F1A180C7CD6B74B217EB6BF658C /* TSMessages.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TSMessages/TSMessages-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				GCC_PREFIX_HEADER = "Target Support Files/BFOAuth/BFOAuth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -563,13 +1242,13 @@
 			};
 			name = Release;
 		};
-		DA056B6A20B04F35543D060EEE9FE6F4 /* Release */ = {
+		D80216211664A09FF88FF7CEF0A2960D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48578F6C1167D0168AD475DFB373314C /* HexColors.xcconfig */;
+			baseConfigurationReference = 0C15DB6F2951857838636D45C2372C5E /* CloudSight.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				GCC_PREFIX_HEADER = "Target Support Files/CloudSight/CloudSight-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -581,40 +1260,26 @@
 			};
 			name = Release;
 		};
-		E466A078C0DB358C60E74C3F742EC366 /* Release */ = {
+		E784EC657F8787E2273201B2CF029A80 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			baseConfigurationReference = 8245F02EF22E2CE76B01E868198A8CD1 /* BALoadingView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BALoadingView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23B5C8550DDE94FBEF1607A40B170774 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		2320D758C06482F7578C301EA26FC916 /* Build configuration list for PBXNativeTarget "CloudSight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2053CCF418A5348CDF26E69E43EAF06C /* Debug */,
-				E466A078C0DB358C60E74C3F742EC366 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2615B875AB8C789AED7C96041479DB8F /* Build configuration list for PBXNativeTarget "TSMessages" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3DD6078BDC0C1E91CA7EA2E647795E12 /* Debug */,
-				B30F45CE400FF05C1E0B7A611CF20F20 /* Release */,
+				03218B2AFA592780BF2F2DA27755F8E7 /* Debug */,
+				D80216211664A09FF88FF7CEF0A2960D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -622,8 +1287,53 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
-				74857149DC1E0D599B8A01A78349A926 /* Release */,
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0291D2B1302CDC43BD34F28863F68F /* Build configuration list for PBXNativeTarget "TSMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFE1E6979B00D042CCB2045E7291783 /* Debug */,
+				9EE9711AC94AE7BA37FF95DB5D8F339A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B7ED7D98BF4558141A77AFE95A52E8 /* Build configuration list for PBXNativeTarget "BALoadingView-BALoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A09AC120AC98C4DACB860AD6ADF056 /* Debug */,
+				E784EC657F8787E2273201B2CF029A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD612FC73BCC22E140DA8824EDA5C7B /* Build configuration list for PBXNativeTarget "BALoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCD17399E9DBEDEC37AE229FFA41CF1 /* Debug */,
+				89D4606DB86E6B1D54F021C1D15ED282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9480F09D88023784B4252A9587D44F39 /* Build configuration list for PBXNativeTarget "RequestUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9E0C147DB7D92DBD8F1DEA0C383C79 /* Debug */,
+				6C752038C053706803E4DC38C374345F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C89F698BF87161E08054A4F4B01D804 /* Build configuration list for PBXNativeTarget "BFOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CF5EC24D42D0E98F9BF4C5CCB7BEA1 /* Debug */,
+				C4F61F1B05D11C85569DBA80746FB6A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -631,8 +1341,17 @@
 		ACABDDD53049FF494333AA35F2BA7BF8 /* Build configuration list for PBXNativeTarget "HexColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A96D6EC41E5232ED74CD10539249EF1B /* Debug */,
-				DA056B6A20B04F35543D060EEE9FE6F4 /* Release */,
+				8C95A74AFD255403F47B90C264CB409F /* Debug */,
+				6C17B881970BAF668F8388C7346445A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95ADCDD6144EE1B93F063A792413061 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BC3CC89F3E196EB2F0F39ABD6FB9A1 /* Debug */,
+				42CE8DA85C0974BD9263E1DD00B9DC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

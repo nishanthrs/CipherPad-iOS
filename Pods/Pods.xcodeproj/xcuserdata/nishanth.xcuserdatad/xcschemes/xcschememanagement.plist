@@ -4,12 +4,37 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BALoadingView-BALoadingView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BALoadingView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BFOAuth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CloudSight.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>HexColors.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RequestUtils.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>00F4F68195F69C2451FB385F77A2DED3</key>
+		<key>16A9500B0C179DA4F371BC4AC064E738</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DEE168E1CB1251ACB052818EAA1E979</key>
+		<key>255D7D01D03AFF9F224C1372951FADA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>496953AC690E7E95A3AE0C8180924FC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8BAB10E1352E459B00B286F03C740580</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8C87BE8B34E43D731BCB89F769BF2CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF941962E5DDC3BE50822536113FCB5F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>E9EF397B95762DDB254C71DDCB4B1381</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC133B12170877E6FBF6934073A66D6A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

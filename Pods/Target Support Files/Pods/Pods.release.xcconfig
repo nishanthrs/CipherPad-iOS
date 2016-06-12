@@ -1,5 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/TSMessages"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/HexColors" -isystem "${PODS_ROOT}/Headers/Public/TSMessages"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"HexColors" -l"TSMessages"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BALoadingView" "${PODS_ROOT}/Headers/Public/BFOAuth" "${PODS_ROOT}/Headers/Public/CloudSight" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/RequestUtils" "${PODS_ROOT}/Headers/Public/TSMessages"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BALoadingView" -isystem "${PODS_ROOT}/Headers/Public/BFOAuth" -isystem "${PODS_ROOT}/Headers/Public/CloudSight" -isystem "${PODS_ROOT}/Headers/Public/HexColors" -isystem "${PODS_ROOT}/Headers/Public/RequestUtils" -isystem "${PODS_ROOT}/Headers/Public/TSMessages"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"BALoadingView" -l"BFOAuth" -l"CloudSight" -l"HexColors" -l"RequestUtils" -l"TSMessages" -framework "CoreGraphics" -framework "CoreLocation" -framework "UIKit"
 PODS_ROOT = ${SRCROOT}/Pods

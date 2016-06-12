@@ -1,13 +1,25 @@
 PODS:
+  - BALoadingView (0.1.1)
+  - BFOAuth (1.0.1)
+  - CloudSight (1.0.3):
+    - BFOAuth (~> 1.0)
+    - RequestUtils (~> 1.1)
   - HexColors (2.2.1)
+  - RequestUtils (1.1.2)
   - TSMessages (0.9.12):
     - HexColors (~> 2.2.0)
 
 DEPENDENCIES:
+  - BALoadingView (~> 0.1)
+  - CloudSight (~> 1.0)
   - TSMessages
 
 SPEC CHECKSUMS:
+  BALoadingView: 181325648e67358b06dcedbc1cedfaeee35f8398
+  BFOAuth: e3c2e4eaae862a89bc301ed6f292d3cd0d6a107b
+  CloudSight: 7974bacb22ec2db1bfb0f0242d9be7f442a78d77
   HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  RequestUtils: 0f04f89abca3936c6566e2f4c3ce5d252036bc89
   TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
 
 COCOAPODS: 0.39.0

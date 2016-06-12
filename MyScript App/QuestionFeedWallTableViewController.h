@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 #import "AskQuestionViewController.h"
 #import "QuestionObject.h"
+#import "QuestionDetailTableViewController.h"
 
 @interface QuestionFeedWallTableViewController : UITableViewController
 

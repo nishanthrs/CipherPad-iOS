@@ -22,6 +22,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.navigationController.view.tintColor = [UIColor magentaColor];
+    
+    UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemCancel target: self action: @selector(removeVC)];
+    
     UIBarButtonItem *cameraButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemCamera target: self action: @selector(cameraButtonPressed)];
     UIBarButtonItem *postButton = [[UIBarButtonItem alloc] initWithTitle: @"Post" style: UIBarButtonItemStyleDone target: self action: @selector(postQuestionButtonPressed)];
     
@@ -33,6 +37,10 @@
     self.singleTap.delegate = self;
     
     [self.questionImageView addGestureRecognizer: self.singleTap];
+}
+
+- (void) removeVC {
+    [self dismissViewControllerAnimated: YES completion: nil];
 }
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch;
@@ -144,6 +152,9 @@
     else if (self.questionTextView.text.length == 0) {
         [TAOverlay showOverlayWithLabel: @"Put in your question!!" Options: TAOverlayOptionOverlayTypeError | TAOverlayOptionOverlaySizeRoundedRect | TAOverlayOptionAutoHide];
     }
+    else if ([self.questionTopicTextField.text isEqualToString: @"Enter Question Topic"] || [self.questionTextView.text isEqualToString: @"Enter Question"]) {
+        [TAOverlay showOverlayWithLabel: @"Put in your question!!" Options: TAOverlayOptionOverlayTypeError | TAOverlayOptionOverlaySizeRoundedRect | TAOverlayOptionAutoHide];
+    }
     else {
         QuestionObject *questionAsked = [[QuestionObject alloc] initWithQuestionTopic: self.questionTopicTextField.text andQuestion: self.questionTextView.text andImage: self.questionImageView];
         NSLog(@"POST BUTTON TAPPED WITH CORRECT PRE-CONDITIONS");
@@ -161,7 +172,7 @@
         }];
         NSLog(@"%@", self.question);
     }
-    [self performSegueWithIdentifier: @"backToQuestionFeedSegue" sender: nil];
+    [self dismissViewControllerAnimated: YES completion: nil];
 }
 
 @end

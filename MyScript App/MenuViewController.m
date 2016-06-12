@@ -186,6 +186,12 @@
     [self.navigationController pushViewController: questionFeedWallTVC animated: YES];
 }
 
+- (IBAction)picCipherButtonPressed:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName: @"Main" bundle: nil];
+    PicCipherViewController *picCipherVC = [storyboard instantiateViewControllerWithIdentifier: @"PicCipher"];
+    [self.navigationController pushViewController: picCipherVC animated: YES];
+}
+
 
 
 @end
