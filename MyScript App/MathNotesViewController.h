@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AtkMaw/MAWMathWidget.h>
+#import <AtkSltw/SLTWTextWidget.h>
 #import <Parse/Parse.h>
 #import "TAOverlay.h"
 #import "RNFrostedSidebar.h"
@@ -17,6 +18,8 @@
 @interface MathNotesViewController : MAWMathViewController <UIApplicationDelegate, MAWMathViewControllerDelegate, WYPopoverControllerDelegate, RNFrostedSidebarDelegate>
 
 @property (strong, nonatomic) NSString *globalRequestURL;
+
+@property (strong, nonatomic) SLTWTextWidget *textWidget;
 
 @property (strong, nonatomic) NSMutableArray *podIDInformation;
 @property (strong, nonatomic) NSMutableArray *podLinkInformation;

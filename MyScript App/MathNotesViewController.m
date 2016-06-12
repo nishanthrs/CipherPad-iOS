@@ -81,6 +81,18 @@
 
 - (void) clearWrittenData {
     [self clear];
+    [self.view addSubview: _textWidget.view];
+    if (_textWidget) {
+        NSLog(@"TEXT WIDGET NOT NULL!");
+    }
+    else {
+        NSLog(@"TEXT WIDGET NULL!!!");
+    }
+    
+    NSArray *en_US = @[[[NSBundle mainBundle] pathForResource:@"en_US-ak-cur.lite" ofType:@"res"], [[NSBundle mainBundle] pathForResource:@"en_US-lk-text.lite" ofType:@"res"]];
+    
+    UITextField *textField = [[UITextField alloc] initWithFrame: CGRectMake(0, 500, 320, 30)];
+    [self.view addSubview: textField];
 }
 
 -(void) myUndo {
